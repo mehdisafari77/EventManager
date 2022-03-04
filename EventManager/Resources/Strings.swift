@@ -9,8 +9,8 @@ import Foundation
 
 enum Strings {
     static let appName = "EventManager"
-    static let task = "Event"
+    static let event = "Event"
     
-    static let taskCell = "eventCell"
+    static let eventCell = "eventCell"
     static let detailSegue = "toEventDetail"
 }
