@@ -46,7 +46,7 @@ class EventListViewController: UIViewController, UITableViewDelegate, UITableVie
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             let eventToDelete = EventController.shared.events[indexPath.row]
-            EventController.shared.deleteEvent(events: eventToDelete)
+            EventController.shared.deleteEvent(event: eventToDelete)
             tableView.deleteRows(at: [indexPath], with: .fade)
         }
     }
