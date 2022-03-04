@@ -64,7 +64,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="taskCell" id="bVN-so-ywP" customClass="TaskTableViewCell" customModule="EventManager" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="eventCell" id="bVN-so-ywP" customClass="TaskTableViewCell" customModule="EventManager" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="65.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bVN-so-ywP" id="r8X-iY-H85">
@@ -104,7 +104,7 @@
                                         <connections>
                                             <outlet property="completionButton" destination="fvB-8Q-4Y7" id="yfP-gg-Qhc"/>
                                             <outlet property="taskNameLabel" destination="FDd-fN-3rc" id="A7t-BP-6oe"/>
-                                            <segue destination="ubl-Vy-f0I" kind="show" identifier="toTaskDetail" id="6L7-e9-eRZ"/>
+                                            <segue destination="ubl-Vy-f0I" kind="show" identifier="toEventDetail" id="6L7-e9-eRZ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
